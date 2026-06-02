@@ -1,0 +1,17 @@
+# Código
+import os
+escolha = 1
+
+while (escolha == 1):
+    altura = float(input("Qual sua altura: "))
+    peso = float(input("Qual seu peso: "))
+
+    imc = peso / (altura * altura)
+
+    print("Seu imc é: ", imc)
+
+    print ("******************************")
+    print("Deseja continuar?")
+    print("Digite 1 para sim")
+    print("Digite 2 para não ")
+    escolha = int(input("Digite: "))
